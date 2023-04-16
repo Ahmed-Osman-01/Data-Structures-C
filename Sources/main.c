@@ -1,14 +1,14 @@
 #include<stdio.h>
 #include "../Headers/stack.h"
+#include "../Headers/linked_list.h"
+
+
 
 int main()
 {
-    stack stack1;
-    init_fixed_stack(&stack1);
-    int x;
-    push_fixed_stack(&stack1, 3);
-    pop_fixed_stack(&stack1, &x);
-    printf("%d\n", x);
+    head list1;
+    init_single_linked_list(&list1);
+
 
     return 0;
 }
